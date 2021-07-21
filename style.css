@@ -1,13 +1,38 @@
 body {
-  background-color: #e5e5e5;
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  background-color: #e5e5e5;
 }
 
-.card{
-    border-radius: 24px;
+h5 {
+  font-size: 2.3rem;
+  font-weight: bold;
 }
 
-.card-body > h5 {
-    font-size: 2rem;
-    font-weight: bold;
+.card {
+  border-radius: 24px;
+}
+
+.contact-section {
+  background-color: #6070ff;
+  background-image: url("./images/contact\ form\ shapes-mobile@2x.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  margin-top: 30vh;
+  min-width: 100%;
+  min-height: 746px;
+  border-radius: 85px 0 0 0;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+}
+
+@media screen and (min-width: 992px) {
+  .contact {
+    max-width: 50%;
+    align-items: center;
+  }
 }
